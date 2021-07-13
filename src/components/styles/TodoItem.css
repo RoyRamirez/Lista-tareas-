@@ -1,0 +1,29 @@
+.item{
+    list-style: none;    
+    margin-bottom: 5px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    
+}
+.false{
+    background: rgb(159, 235, 159);
+    transition: .2s;
+}
+.false:hover {
+    background: rgb(210, 235, 210);
+}
+.tarea{
+    text-decoration: none;
+    color: black;
+}
+.true{
+    background: rgb(218, 62, 62);
+    color: white;
+    text-decoration: line-through;
+    transition: .2s;
+}
+.true:hover {
+    background: rgb(245, 143, 143);
+}
